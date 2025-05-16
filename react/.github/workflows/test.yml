@@ -1,0 +1,13 @@
+name: My first GitHub Action
+
+on: [push]
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello world"
+
+      - name: Say Rerun
+        run: echo "Rerun"
