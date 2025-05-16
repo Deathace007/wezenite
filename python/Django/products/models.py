@@ -5,4 +5,4 @@ class Products(models.Model):
     name = models.CharField(max_length=50)
     price = models.FloatField()
     stock = models.IntegerField()
-    
+
