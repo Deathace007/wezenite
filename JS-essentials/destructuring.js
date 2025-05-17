@@ -1,4 +1,4 @@
-//Destructing array
+//destructuring array
 const arr1 = [1,2,3]
 const arr2 = [3,4,5]
 
@@ -17,7 +17,7 @@ const objarr3 = [...objarr1,...objarr2]
 console.log(objarr3)
 
 
-//Destruing Objects
+//destructuring Objects
 const obj1 = {
     'name': 'Mohan'
 }
